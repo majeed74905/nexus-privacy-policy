@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NEXUS Privacy Policy</title>
+<meta name="description" content="Privacy policy for the NEXUS browser extension - a local-first privacy firewall. No data collection, no telemetry, no server." />
+<meta name="robots" content="index, follow" />
+<style>
+  /* System fonts only. This page makes no external requests of any kind -
+     loading a web font would disclose the visitor's IP address to a third
+     party on the very page that says it does not do that. */
+  :root {
+    --bg: #ffffff; --surface: #f6f7f8; --line: #e1e4e8; --line-strong: #cfd4da;
+    --ink: #1b1f23; --ink-2: #4a5159; --ink-3: #6b7480; --accent: #2f6f4a;
+    --warn-bg: #fff8e6; --warn-line: #e3b341;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0f0f; --surface: #16191a; --line: #262b2c; --line-strong: #363d3e;
+      --ink: #e8ecec; --ink-2: #a9b1b1; --ink-3: #7b8384; --accent: #63b97e;
+      --warn-bg: #241e0d; --warn-line: #8a6d1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px; line-height: 1.65;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  header.masthead { border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+  .mark { display: flex; align-items: center; gap: .75rem; }
+  .mark svg { width: 34px; height: 34px; flex: 0 0 auto; }
+  .mark-text strong { display: block; font-size: 1.05rem; letter-spacing: -.01em; }
+  .mark-text span { display: block; font-size: .8rem; color: var(--ink-3); }
+  h1 { font-size: 1.85rem; line-height: 1.25; letter-spacing: -.02em; margin: 0 0 .4rem; }
+  h2 { font-size: 1.25rem; letter-spacing: -.01em; margin: 2.4rem 0 .75rem; padding-top: .3rem; }
+  h3 { font-size: 1.05rem; margin: 1.8rem 0 .6rem; }
+  p { margin: 0 0 1rem; color: var(--ink-2); }
+  strong { color: var(--ink); }
+  a { color: var(--accent); }
+  ul, ol { margin: 0 0 1rem; padding-left: 1.35rem; color: var(--ink-2); }
+  li { margin-bottom: .4rem; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .875em; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 4px; padding: .1em .35em;
+  }
+  blockquote {
+    margin: 0 0 1rem; padding: .85rem 1rem;
+    background: var(--warn-bg); border: 1px solid var(--warn-line);
+    border-radius: 6px; color: var(--ink-2); font-size: .95rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 1.25rem; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--surface); color: var(--ink); font-weight: 600; }
+  td { color: var(--ink-2); }
+  footer {
+    margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+    font-size: .85rem; color: var(--ink-3);
+  }
+  .todo {
+    background: #fde8e8; border: 1px solid #d03b3b; color: #7d1d1d;
+    padding: 1rem 1.15rem; border-radius: 6px; margin-bottom: 2rem; font-size: .95rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    .todo { background: #2b1414; border-color: #d03b3b; color: #f0b4b4; }
+  }
+  @media print { .todo { display: none; } body { font-size: 11pt; } }
+</style>
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <div class="mark">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="7" fill="#1d2122" />
+        <path d="M16 5.5l8 2.6v7.1c0 4.9-3.2 9.2-8 10.8-4.8-1.6-8-5.9-8-10.8V8.1L16 5.5z"
+              stroke="#4f9d69" stroke-width="1.8" stroke-linejoin="round" fill="none" />
+        <circle cx="16" cy="16" r="2.4" fill="#4f9d69" />
+      </svg>
+      <span class="mark-text">
+        <strong>NEXUS</strong>
+        <span>Local-first AI privacy firewall</span>
+      </span>
+    </div>
+  </header>
+
+<h1>NEXUS privacy policy</h1>
+<p><strong>Version 3.0.0 · 2026-11-08</strong></p>
+<blockquote>This is a draft prepared for you to review, adopt and host. You are the publisher; you are responsible for the policy that appears under your name. Read it, change anything that does not match what you intend, and add your contact details before you publish it.</blockquote>
+<h2>The short version</h2>
+<p>NEXUS does not collect, transmit, sell or share your data. There is no server, no account and no analytics. Every NEXUS feature runs on your device.</p>
+<h2>One thing this policy will not pretend about</h2>
+<p>NEXUS is a tool you use to send things to other people's services. It would be dishonest to describe it as if nothing ever leaves your computer.</p>
+<p>When you press <strong>Mask &amp; Send</strong>, the sanitized text <strong>is submitted to the website you are using</strong> — ChatGPT, Claude, Gemini, or wherever you were typing. That is the entire purpose of the button. What NEXUS changes is <em>what</em> is in that submission: the detected values are replaced with placeholders such as <code>[API_KEY_REDACTED]</code> before it goes. The same applies when you copy sanitized text and paste it somewhere, or download a redacted screenshot and share it.</p>
+<p>So, precisely:</p>
+<table><tbody><tr><td><strong>NEXUS</strong> transmits</td><td>nothing, ever — no detection service, no telemetry, no account</td></tr><tr><td><strong>You</strong> transmit</td><td>whatever you choose to send, after NEXUS has sanitized it</td></tr></tbody></table>
+<p>Once a submission reaches a third-party website, that site's own privacy policy governs what happens to it. NEXUS has no control over, and no visibility into, what they do with it. It also cannot protect anything you send without using it — pressing <strong>Allow Once</strong>, or typing into an application NEXUS is not running inside, sends the original.</p>
+<h2>What NEXUS processes</h2>
+<p>To do its job, NEXUS reads:</p>
+<ul><li><strong>Text you are about to submit</strong> on websites where it is active, so it can scan it before you send it.</li><li><strong>Images you give it</strong>, in the Screenshot Scanner, so it can recognise text in them and cover what is sensitive.</li><li><strong>Clipboard text you hand it</strong>, either by pasting it into the Clipboard Guardian or by pressing &quot;Read clipboard &amp; scan&quot; after granting the optional permission.</li><li><strong>The hostname of the page you are on</strong>, so it can classify the destination and apply your policy.</li></ul>
+<p>All of this is processed in memory, on your device, and then discarded.</p>
+<h2>What NEXUS stores</h2>
+<p>On your device only, using <code>chrome.storage.local</code>:</p>
+<ul><li><strong>Your settings and policy</strong> — thresholds, destination rules, trust levels, custom patterns, which sites you have disabled.</li><li><strong>An audit log of metadata</strong> — for each scan: a timestamp, the entity <em>types</em> found and how many of each, a risk score, the destination hostname, and which action you took.</li></ul>
+<p>The audit log never contains your content, a detected value, a masked preview of a value, or the position of a detection within your text. That is enforced in code: every event passes an assertion that rejects anything credential-shaped before it is written, and the test suite checks it.</p>
+<h2>What NEXUS never does</h2>
+<ul><li>It never sends your content anywhere to be classified. There is no cloud detection service, no remote API and no model download at runtime.</li><li>It never uploads a screenshot. Text recognition runs from a WebAssembly engine bundled inside the extension.</li><li>It never transmits clipboard content.</li><li>It never writes your content to a log.</li><li>It never uses <code>chrome.storage.sync</code>, which would copy settings to your Google account.</li><li>It contains no analytics, no telemetry, no crash reporting and no advertising.</li></ul>
+<h2>Network activity</h2>
+<p>NEXUS makes <strong>no network requests</strong>. The extension's content security policy pins <code>connect-src</code> to <code>'self'</code>, so its pages cannot reach an external origin. Every feature works with the network disconnected, and the test suite verifies that by severing the network and running the product.</p>
+<h2>Permissions</h2>
+<ul><li><strong>storage</strong> — Stores your settings, your policy and the metadata-only audit log on this device using `chrome.</li><li><strong>activeTab</strong> — Grants access to the tab you are on ONLY at the moment you click the NEXUS toolbar icon.</li><li><strong>clipboardWrite</strong> — Writes the sanitized text back to your clipboard when you press &quot;Sanitize &amp; copy&quot;, and writes an empty string when you press &quot;Clear clipboard&quot;.</li><li><strong>clipboardRead</strong> (optional, off by default) — OPTIONAL, and not granted at install.</li></ul>
+<p>NEXUS requests no host permissions and does not use <code>&lt;all_urls&gt;</code>.</p>
+<h2>Your data, your control</h2>
+<ul><li><strong>Export</strong> your audit log as JSON from the extension's settings page.</li><li><strong>Delete</strong> the audit log, or reset every setting, from the same page.</li><li><strong>Uninstall</strong> the extension and everything it stored is removed with it.</li></ul>
+<h2>Children</h2>
+<p>NEXUS is not directed at children and collects nothing from anyone.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the version and date at the top will change. Material changes will be noted in the extension's release notes.</p>
+<h2>Contact</h2>
+<p>Questions about this policy, or about how NEXUS handles data:</p>
+<p><strong>afzal22122004@gmail.com</strong></p>
+<p>This is the contact address for the published extension. It is the same address used for the developer account, so a message sent here reaches the publisher.</p>
+<h2>Limitations, stated plainly</h2>
+<p>NEXUS reduces the chance of accidentally disclosing sensitive information. It does not eliminate it:</p>
+<ul><li>Detection is based on patterns, structure, entropy and context. It misses things, and it occasionally flags things that are not sensitive.</li><li>Optical character recognition misses text that is small, blurred, stylised or low-contrast. Text it does not recognise is not redacted.</li><li>NEXUS protects the surfaces it runs on. It cannot protect an application it is not running inside.</li><li>It is not a guarantee against data loss, and nothing in this document should be read as one.</li></ul>
+  <footer>
+    NEXUS 3.0.0 &middot; This page is static, makes no network requests, sets no
+    cookies and runs no analytics.
+  </footer>
+</main>
+</body>
+</html>
